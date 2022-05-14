@@ -1,0 +1,155 @@
+*{
+  background-color: rgb(14, 125, 230);
+  color: white;
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: unset;
+  text-align: center;
+  background-color:rgb(8, 59, 226);
+  border: black 2px solid;
+  font-style: strong;
+  border-radius: 100px;
+  
+}
+
+h2{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(8, 59, 226);
+  border: 2px black solid;
+  border-radius: 100px;
+
+}
+.sis {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: 69.5vh;
+  width: 100%;
+  /*justify-content: center;
+  align-content: baseline;*/
+}
+#container{
+  border: 2px black solid;
+  border-width: 100%;
+  flex-wrap: wrap;
+  width: 30%;
+  height: 310px;
+  border-radius: 15px;
+  transform: none;
+  margin: 15px;
+  background-color: white;
+}
+.pcont {
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  background-color: white;
+  color: white;
+}
+#container .celular1{
+  width: 250px;
+  height: auto;
+  margin: 2px auto;
+  cursor:pointer;
+  align-items: center;
+}
+
+#container .celular2{
+  width: 206px;
+  height: auto;
+  margin: 0px auto;
+  cursor:pointer;;
+  align-items: center;
+  display: flex;
+
+}
+
+#container .celular3{
+  width: 227px;
+  height: auto;
+  margin: 0px auto;
+  cursor:pointer;;
+  align-items: center;
+  display: flex;
+  background-color: white;
+
+}
+
+#container2{
+text-indent: 500px;
+}
+.imgtext {
+  display: flex;
+}
+
+ .parrafo1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+
+#fecha{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: bold;
+}
+
+#visitas{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: black;
+  background-color: rgb(8, 59, 226);
+
+}
+
+#visits{
+  float:left;
+  border: 2px black solid;
+  border-radius: 100px;
+  font-size: 100%;
+  background-color: rgb(8, 59, 226);
+  color: black;
+}
+
+#fecha{
+  border: 2px black solid;
+  border-radius: 100px;
+  float:right;
+  border: px black solid;
+  border-radius: 100px;
+  font-size: 100%;
+  background-color: aquamarine;
+
+}
+
+.contenedorcel{
+  border-right: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.infocelulares{
+  padding: 20px;
+}
+
+b{
+  background-color: #d9d9d9;
+  border-radius: 10%;
+  padding: 6px 6px;
+  box-shadow: 3px 3px 5px silver;
+}
+
+b:hover{
+  cursor: pointer;
+ background-color: black;
+}
+
+.logomovil{
+background-color: rgb(8, 59, 226);
+  border: 2px black solid;
+  border-radius: 100px;
+}
+
+
+
